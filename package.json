@@ -1,0 +1,22 @@
+{
+  "name": "book-lzz",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muzhen/book-lzz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muzhen/book-lzz/issues"
+  },
+  "homepage": "https://github.com/muzhen/book-lzz#readme",
+  "dependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}
