@@ -10,11 +10,11 @@ after_script:
   - git config user.email "${user_email}"
   - git add .
   - git commit -m 'publish gitbook'
-  - git push --force --quiet "https://${acc_token}@${gh_ref}" master:${branch}
+  - git push --force --quiet "https://${acc_token}@${gh_ref}" main:${branch}
 
 branches:
   only:
-    - master
+    - main
 
 
 
